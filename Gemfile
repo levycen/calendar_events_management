@@ -2,6 +2,8 @@ source "https://rubygems.org"
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
+# Use devise for authentication [https://github.com/heartcombo/devise]
+gem "devise"
 # Deploy this application anywhere as a Docker container [https://kamal-deploy.org]
 gem "kamal", require: false
 # Use postgresql as the database for Active Record
